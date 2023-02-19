@@ -1,0 +1,7 @@
+entrypoint = "main.lol"
+
+[interpreter]
+command = ["smallbar", "-t", "lolcode-lci -i", "-r", "lolcode-lci main.lol", "-detect-ps1", "lci> "]
+
+[nix]
+channel = "stable-21_11"
